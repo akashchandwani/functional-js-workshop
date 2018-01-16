@@ -6,6 +6,6 @@ function doubleAll(numbers) {
   return result;
 }
 
-console.log('multiply each element in array', JSON.stringify(doubleAll([1,2,3]))===JSON.stringify([2,4,6]));
+//console.log('multiply each element in array', JSON.stringify(doubleAll([1,2,3]))===JSON.stringify([2,4,6]));
 
 module.exports = doubleAll
