@@ -10,21 +10,23 @@ function countWords(inputWords) {
   }, {});
 }
 
-var wordList = [
-"c",
-"a",
-"a",
-"a",
-"a",
-"b",
-"b",
-"b",
-"b"
-];
-console.log(JSON.stringify(countWords(wordList)) === JSON.stringify({
-"c": 1,
-"a": 4,
-"b": 4
-}));
+/*
+ *var wordList = [
+ * "c",
+ * "a",
+ * "a",
+ * "a",
+ * "a",
+ * "b",
+ * "b",
+ * "b",
+ * "b"
+ * ];
+ * console.log(JSON.stringify(countWords(wordList)) === JSON.stringify({
+ * "c": 1,
+ * "a": 4,
+ * "b": 4
+ *}));
+ */
 
 module.exports = countWords
